@@ -56,7 +56,7 @@ public class EvalueatorController extends HttpServlet {
 				
 			}else if("Character Count".equals(conversionType)) {
 		
-				result="Charecter Count : "+sentance.length();
+				result="Character Count : "+sentance.length();
 				
 			}else if("CamelCase".equals(conversionType)) {
 			
